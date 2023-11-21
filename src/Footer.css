@@ -1,0 +1,20 @@
+.footerwrapper {
+    background: #222;
+    padding: 24px 0px;
+    text-align: center;
+}
+
+.footernav>ul>li {
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+.footernav>ul>li>a {
+    text-decoration: none;
+    color: #0f79af !important;
+    font-weight: 100 !important;
+    font-size: 15px !important;
+
+}

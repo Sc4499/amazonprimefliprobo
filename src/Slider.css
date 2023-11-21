@@ -1,0 +1,88 @@
+.Box {
+    width: 1136pxpx;
+    /* Adjust the width as needed */
+    height: 378px;
+}
+
+body {
+    background-color: #000;
+}
+
+.heroswiper>img {
+    border-radius: 20px !important;
+    width: 1136px;
+    height: 376px;
+}
+
+.captionwrapper {
+    position: absolute;
+    bottom: 2%;
+    padding: 16px 32px;
+}
+
+.caption {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.capicon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #1A98FF;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: 2px;
+}
+
+.capicon>svg {
+    width: 16px;
+    height: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.textline {
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 209px;
+    text-align: left;
+}
+
+.content {
+    background-color: #33373d;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    padding: 2px;
+}
+
+.morebtn {
+    height: 62px;
+    padding: 8px 21px;
+    color: #222;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.watchlist {
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    background-color: #ffffff33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.watchlist>svg {
+    height: 33px;
+    width: 33px;
+}

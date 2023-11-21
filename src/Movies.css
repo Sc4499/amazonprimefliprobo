@@ -1,0 +1,30 @@
+.bgcontainer {
+    background: #000;
+    position: relative;
+}
+
+.bgcontainerwrapper {
+    background: #000;
+    padding-bottom: 30%;
+}
+
+.blueText {
+    color: #1A98FF;
+}
+
+.seemoreBtn {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    background: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+.seemoreBtn>svg {
+    margin-top: 4px;
+}

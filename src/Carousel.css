@@ -1,0 +1,140 @@
+.CarouselBox {
+    transition: transform .8s;
+    /* Animation */
+    width: 266px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.captionwrappertwo {
+    display: none;
+}
+
+.CarouselBox:hover {
+    transform: scale(1.1);
+    position: relative;
+    z-index: 100;
+}
+
+.CarouselBox:hover>.captionwrappertwo {
+    display: block;
+
+}
+
+.CarouselBox:hover>.movieBanner>img {
+    border-radius: 0px !important;
+}
+
+.captionwrappertwo {
+    padding: 8px 16px;
+}
+
+.captiontwo {
+    display: inline-block;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.capicontwo {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #1A98FF;
+    display: inline-flex;
+    align-self: center;
+    justify-content: center;
+    margin-right: 8px;
+    padding: 2px;
+}
+
+.capicontwo>svg {
+    width: 12px;
+    height: 12px;
+    font-weight: 400;
+    color: #000;
+}
+
+.lastArrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.textlinetwo {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.contenttwo {
+    background-color: #33373d;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    padding: 2px;
+}
+
+.morebtntwo {
+    height: 62px;
+    padding: 8px 21px;
+    color: #222;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.titleandwish {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.houryr {
+    color: #aaa;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.movieBanner>img {
+    width: 266px;
+    height: 150px;
+    border-radius: 10px !important;
+    background-color: #fff;
+}
+
+.moviedesc {
+    color: #aaa;
+    font-size: 14px;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.watchlisttwo {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #ffffff33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wishbox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 4px;
+}
+
+.watchlisttwo>svg {
+    height: 16px;
+    width: 16px;
+}

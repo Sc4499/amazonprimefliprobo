@@ -1,0 +1,133 @@
+.bannerwrapper {
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    height: 100vh;
+    text-align: left;
+    color: #fff;
+    padding: 48px;
+}
+
+
+.bannerimg>h1 {
+    max-width: 550px;
+    font-weight: 200;
+    font-size: 2.8rem;
+}
+
+.bannerimg>p {
+    font-weight: 200;
+    font-size: 1.4rem;
+    max-width: 593px;
+    margin-top: 24px;
+
+}
+
+.joinbtn {
+    padding: 14px 20px;
+    min-width: 280px;
+    background-color: #0f79af;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.bannerrentwrapper {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    height: 90vh;
+    text-align: left;
+    color: #fff;
+    padding: 48px;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg);
+    background-position: right top;
+}
+
+.bannerrentwrapper-two {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    height: 90vh;
+    text-align: left;
+    color: #fff;
+    padding: 48px;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._CB1517304519_.jpg);
+    background-position: right top
+}
+
+.channerwrapper {
+    background-color: #fff;
+}
+
+.channel {
+    text-align: left;
+    padding: 24px;
+}
+
+.channel>h1 {
+    max-width: 511px !important;
+    font-weight: 400;
+    font-size: 2.8rem;
+}
+
+
+.channel>p {
+    font-weight: 200;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    max-width: 500px;
+    margin-top: 24px;
+}
+
+.flexwrapper {
+    max-width: 800px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    justify-items: flex-start;
+    padding: 8px;
+}
+
+.flexwrapper>.item1 {
+    display: flex;
+    flex: 1 32%;
+    max-width: 256px;
+    padding: 0;
+    margin: 3px;
+    transition: box-shadow 0.2s ease-in-out;
+    z-index: 1;
+}
+
+.item1>img {
+    width: 100%;
+}
+
+.firetvwrapper {
+    min-height: 480px;
+    background-image: linear-gradient(to left, #000 40%, transparent 58%), url(https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg);
+    background-position: left;
+}
+
+.firetvbox {
+    text-align: left;
+    padding: 48px 0px;
+}
+
+.firetvbox>h1 {
+    color: #fff;
+    text-align: left;
+}
+
+.firetvbox>p {
+    color: #fff;
+    text-align: left;
+    font-weight: 200;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    max-width: 500px;
+    margin-top: 24px;
+}
